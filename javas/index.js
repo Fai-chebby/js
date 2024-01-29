@@ -1,4 +1,4 @@
-use strict";
+"use strict";
 //intro
 console.log("Java is simple, fan and secured");
 console.log("Hello world");
