@@ -1,6 +1,6 @@
 "use strict";
 //intro
-console.log("Java is simple, fan and secured");
+/*console.log("Java is simple, fan and secured");
 console.log("Hello world");
 console.log(10 - 5);
 
@@ -96,7 +96,7 @@ console.log(coffeeTealeavesTea);
 /*function calcAge(birthYear) {
   const age = 2030 - birthYear;
   return age;
-}*/
+}
 // function declaration
 function calcAge(birthYear) {
   return 2030 - birthYear;
@@ -186,3 +186,4 @@ while (dice !== 6) {
   console.log(`You rolled a${dice}`);
   dice = Math.trunc(Math.random() * 6) + 1;
 }
+*/
