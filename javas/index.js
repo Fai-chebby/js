@@ -300,7 +300,7 @@ let numbe = [10, 20];
 let [a, b] = numbe;
 console.log(a);
 console.log(b);
-//classes
+/*classes
 class person {
   constructor(name) {
     this.name = name;
@@ -316,4 +316,30 @@ class Leela extends person {
   }
 }
 let Leela = new Leela(27);
-Leela.hello();
+Leela.hello();*/
+// getters and setters
+class Per {
+  constructor(name) {
+    this._name = name;
+  }
+
+  get name() {
+    return this._name.toUpperCase();
+  }
+
+  set name(value) {
+    if (value.length > 2) {
+      this._name = value;
+    } else {
+      console.log("Name not saved. It should be at least 3 characters long.");
+    }
+  }
+}
+
+let person = new Per("chebby");
+console.log(person.name); // Output: CHEBBY
+
+person.name = "Jo"; // Name not saved. It should be at least 3 characters long.
+
+person.name = "John";
+console.log(person.name); // Output: JOHN
