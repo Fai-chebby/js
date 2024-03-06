@@ -256,3 +256,21 @@ function sum(array) {
   return result;
 }
 console.log(sum(20, 80, 70));
+
+//spread operator
+var numbers = [1, 2, 3, 4];
+console.log(...numbers);
+console.log(Math.max(...numbers));
+
+var objs = {
+  name: "fay",
+  age: 29,
+  gender: "female",
+};
+
+var objs1 = {
+  name: "rex",
+  age: 34,
+  hobby: ["hockey"],
+};
+console.log(objs);
