@@ -207,3 +207,14 @@ const array = [1234];
 console.log(array);
 array.push(4);
 console.log(array);
+//arrow function
+var fn = (a) => a + 5;
+console.log(fn(3 + 9));
+
+var btn = document.querySelector("button");
+function fs() {
+  console.log(this);
+}
+
+var fs2 = () => console.log(this);
+fs2();
