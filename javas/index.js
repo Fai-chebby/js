@@ -287,3 +287,13 @@ let obje = {
 for (let prop in obj) {
   console.log(obje[prop]);
 }
+
+let names = "rate";
+let weight = 50;
+var text = `Hello my name is ${names} and weight is ${weight}`;
+console.log(text);
+//destucturing array
+let numbe = [10, 20];
+let [a, b] = numbe;
+console.log(a);
+console.log(b);
