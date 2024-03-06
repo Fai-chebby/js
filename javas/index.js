@@ -274,3 +274,16 @@ var objs1 = {
   hobby: ["hockey"],
 };
 console.log(objs);
+
+//foor loop objects
+let numbs = [1, 2, 3, 4];
+for (let number of numbs) {
+  console.log(number);
+}
+let obje = {
+  name: "rete",
+  age: 23,
+};
+for (let prop in obj) {
+  console.log(obje[prop]);
+}
