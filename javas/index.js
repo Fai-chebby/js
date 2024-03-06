@@ -236,3 +236,23 @@ let obj = {
   age,
 };
 console.log(obj);
+
+//rest operator
+// if argument is  not known
+/*function sum(...array) {
+  let result = 0;
+  for (let i = 0; i < array.length; i++) {
+    result += array[i];
+  }
+  return result;
+}*/
+
+console.log(sum(20, 80, 70));
+function sum(array) {
+  let result = 0;
+  for (let i = 0; i < arguments.length; i++) {
+    result += arguments[i];
+  }
+  return result;
+}
+console.log(sum(20, 80, 70));
