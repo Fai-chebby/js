@@ -343,3 +343,19 @@ person.name = "Jo"; // Name not saved. It should be at least 3 characters long.
 
 person.name = "John";
 console.log(person.name); // Output: JOHN
+//symbols
+let symbol = Symbol("debug");
+console.log(typeof symbol);
+let symbols = Symbol.for("age");
+let symbols2 = Symbol.for("age");
+let perso = {
+  name: "chebby",
+  age: 27,
+};
+function makeAge() {
+  let symbols = Symbol.for("age");
+  perso[symbols] = 30;
+}
+makeAge();
+console.log(perso[symbols2]);
+console.log(perso["age"]);
