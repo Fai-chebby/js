@@ -284,9 +284,12 @@ let obje = {
   name: "rete",
   age: 23,
 };
+/*let { name, age } = obje;
+console.log(name, age);*/
 for (let prop in obj) {
   console.log(obje[prop]);
 }
+//destructuring objects
 
 let names = "rate";
 let weight = 50;
