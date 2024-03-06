@@ -1,4 +1,7 @@
 "use strict";
+
+/*const { findRootConfig } = require("@babel/core/lib/config/files");
+
 //intro
 /*console.log("Java is simple, fan and secured");
 console.log("Hello world");
@@ -187,3 +190,20 @@ while (dice !== 6) {
   dice = Math.trunc(Math.random() * 6) + 1;
 }
 */
+// let
+/*let ages52 = 20;
+if (true) {
+  ages52 = 30;
+  console.log(ages52);
+}
+console.log(ages52);
+
+//function
+function ages52() {
+  ages52 = 20;
+}*/
+//array
+const array = [1234];
+console.log(array);
+array.push(4);
+console.log(array);
