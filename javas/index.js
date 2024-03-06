@@ -300,3 +300,20 @@ let numbe = [10, 20];
 let [a, b] = numbe;
 console.log(a);
 console.log(b);
+//classes
+class person {
+  constructor(name) {
+    this.name = name;
+  }
+  hello() {
+    console.log(`Hello world this is ${this.name}`);
+  }
+}
+class Leela extends person {
+  constructor(age) {
+    super("leela");
+    this.age = age;
+  }
+}
+let Leela = new Leela(27);
+Leela.hello();
