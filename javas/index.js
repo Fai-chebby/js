@@ -218,3 +218,21 @@ function fs() {
 
 var fs2 = () => console.log(this);
 fs2();
+
+// comparison
+function compare(num1, num2) {
+  console.log(num1);
+  console.log(num2);
+  return num1 == num2;
+}
+console.log(compare(10, 20));
+
+//objects
+let name = "fay chebby";
+let age = 20;
+
+let obj = {
+  name,
+  age,
+};
+console.log(obj);
