@@ -362,5 +362,24 @@ console.log(perso["age"]);
 //tenery operator
 let numse = 7;
 let result;
-result = num % 2 === 0 ? "even" : "false";
+result = numse % 2 === 0 ? "even" : "false";
 console.log(result);
+//switch case
+let day = "Monday";
+switch (day) {
+  case "Monday":
+    console.log("7am");
+    break;
+  case "Tuesday":
+    console.log("6am");
+    break;
+  case "wednesday":
+    console.log("4am");
+    break;
+  case "Thursday":
+    console.log("5am");
+    break;
+  case "Friday":
+    console.log("7am");
+    break;
+}
