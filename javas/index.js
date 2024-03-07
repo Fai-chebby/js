@@ -409,7 +409,12 @@ console.log(keith);
 console.log(keith.Device);
 console.log(keith.Device.ram);
 // functions
-function great() {
+/*function great() {
   console.log("Hello world");
 }
-great();
+great();*/
+function great() {
+  return "Hello world";
+}
+let str = great();
+console.log(str);
