@@ -430,3 +430,13 @@ let greet = (hello) => {
   console.log("Hello world");
 };
 console.log(greet);
+
+let pc = {
+  cpu: "i7",
+  ram: 16,
+  brand: "mac",
+  geet: function () {
+    console.log("hello chebby");
+  },
+};
+pc.geet();
