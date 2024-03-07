@@ -414,7 +414,8 @@ console.log(keith.Device.ram);
 }
 great();*/
 function great() {
-  return "Hello world";
+  return `Hello world ${user}! !`;
 }
-let str = great();
+let user = "chebby";
+let str = great(user);
 console.log(str);
