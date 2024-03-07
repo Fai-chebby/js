@@ -390,3 +390,9 @@ let fay1 = 8;
 let fay2 = 90;
 let results = fay1 + fay2;
 console.log(`The addition of  ${fay1} and ${fay2} is ${results}`);
+
+// nested loop
+for (let i = 1; i <= 5; i++) {
+  console.log("Hi", i);
+  for (let j = 1; j <= 5; j++) console.log("hello", j);
+}
