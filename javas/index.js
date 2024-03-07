@@ -425,3 +425,8 @@ let add = function (chebby1, chebby2) {
 };
 let results1 = add(90, 56);
 console.log(results1);
+// arrow function
+let greet = (hello) => {
+  console.log("Hello world");
+};
+console.log(greet);
