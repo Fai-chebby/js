@@ -396,3 +396,15 @@ for (let i = 1; i <= 5; i++) {
   console.log("Hi", i);
   for (let j = 1; j <= 5; j++) console.log("hello", j);
 }
+let keith = {
+  name: "chebby",
+  tech: "spring",
+  Device: {
+    cpu: "i7",
+    ram: 16,
+    brand: "mac",
+  },
+};
+console.log(keith);
+console.log(keith.Device);
+console.log(keith.Device.ram);
