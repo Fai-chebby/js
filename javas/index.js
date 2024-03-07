@@ -419,3 +419,9 @@ function great() {
 let user = "chebby";
 let str = great(user);
 console.log(str);
+
+let add = function (chebby1, chebby2) {
+  return chebby1 + chebby2;
+};
+let results1 = add(90, 56);
+console.log(results1);
