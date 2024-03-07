@@ -408,3 +408,8 @@ let keith = {
 console.log(keith);
 console.log(keith.Device);
 console.log(keith.Device.ram);
+// functions
+function great() {
+  console.log("Hello world");
+}
+great();
