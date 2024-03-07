@@ -383,3 +383,10 @@ switch (day) {
     console.log("7am");
     break;
 }
+
+// Template litral
+
+let fay1 = 8;
+let fay2 = 90;
+let results = fay1 + fay2;
+console.log(`The addition of  ${fay1} and ${fay2} is ${results}`);
