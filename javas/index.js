@@ -359,3 +359,8 @@ function makeAge() {
 makeAge();
 console.log(perso[symbols2]);
 console.log(perso["age"]);
+//tenery operator
+let numse = 7;
+let result;
+result = num % 2 === 0 ? "even" : "false";
+console.log(result);
