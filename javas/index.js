@@ -455,3 +455,7 @@ ret[99] = 9;
 for (let n of ret) {
   console.log(n);
 }
+let rexs = [89, 90, 87, 65];
+console.log(rexs);
+let [f, e, c, d] = rexs;
+console.log(d);
