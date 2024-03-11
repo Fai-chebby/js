@@ -203,7 +203,7 @@ function ages52() {
   ages52 = 20;
 }*/
 //array
-const array = [1234];
+/*const array = [1234];
 console.log(array);
 array.push(4);
 console.log(array);
@@ -245,7 +245,7 @@ console.log(obj);
     result += array[i];
   }
   return result;
-}*/
+}
 
 console.log(sum(20, 80, 70));
 function sum(array) {
@@ -285,7 +285,7 @@ let obje = {
   age: 23,
 };
 /*let { name, age } = obje;
-console.log(name, age);*/
+console.log(name, age);
 for (let prop in obj) {
   console.log(obje[prop]);
 }
@@ -316,7 +316,7 @@ class Leela extends person {
   }
 }
 let Leela = new Leela(27);
-Leela.hello();*/
+Leela.hello();
 // getters and setters
 class Per {
   constructor(name) {
@@ -412,7 +412,7 @@ console.log(keith.Device.ram);
 /*function great() {
   console.log("Hello world");
 }
-great();*/
+great();
 function great() {
   return `Hello world ${user}! !`;
 }
@@ -465,11 +465,15 @@ ref.forEach((n) => {
   console.log(n);
 });
 let ref = [89, 90, 87, 65];
-console.log(ref.filter((n) => n % 5 === 0));*/
+console.log(ref.filter((n) => n % 5 === 0));
 let ref = [89, 90, 87, 65];
 ref
   .filter((n) => n % 5 === 0)
   .map((n) => n * 2)
   .forEach((n) => {
     console.log(n);
-  });
+  });*/
+
+// dom manipulation
+
+var list = document.querySelectorAll(".li.name");
