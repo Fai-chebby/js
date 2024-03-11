@@ -459,3 +459,8 @@ let rexs = [89, 90, 87, 65];
 console.log(rexs);
 let [f, e, c, d] = rexs;
 console.log(d);
+// for each print individual value
+let ref = [89, 90, 87, 65];
+ref.forEach((n) => {
+  console.log(n);
+});
