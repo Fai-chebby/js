@@ -460,7 +460,9 @@ console.log(rexs);
 let [f, e, c, d] = rexs;
 console.log(d);
 // for each print individual value
-let ref = [89, 90, 87, 65];
+/*let ref = [89, 90, 87, 65];
 ref.forEach((n) => {
   console.log(n);
-});
+});*/
+let ref = [89, 90, 87, 65];
+console.log(ref.filter((n) => n % 5 === 0));
