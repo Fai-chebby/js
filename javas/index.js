@@ -463,6 +463,13 @@ console.log(d);
 /*let ref = [89, 90, 87, 65];
 ref.forEach((n) => {
   console.log(n);
-});*/
+});
 let ref = [89, 90, 87, 65];
-console.log(ref.filter((n) => n % 5 === 0));
+console.log(ref.filter((n) => n % 5 === 0));*/
+let ref = [89, 90, 87, 65];
+ref
+  .filter((n) => n % 5 === 0)
+  .map((n) => n * 2)
+  .forEach((n) => {
+    console.log(n);
+  });
