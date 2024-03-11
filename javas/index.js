@@ -14,7 +14,7 @@ let js = "coder";
 console.log(js);
 let firstName = "Faith";
 let secondName = "chebby";
-console.log(firstName + " " + secondName);
+console.l og(firstName + " " + secondName);
 
 //Data types
 let javascriptisSimple = true;
@@ -448,3 +448,10 @@ function Fay(name, age) {
 }
 let fay = new Fay("chebby", 20);
 console.log(fay);
+// for of loop
+let ret = [];
+ret[0] = 5;
+ret[99] = 9;
+for (let n of ret) {
+  console.log(n);
+}
