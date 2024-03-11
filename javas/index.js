@@ -485,3 +485,11 @@ var list = document.querySelector("#web-list");
 console.log("#web-list node type is:" + list.nodeType);
 console.log("#web-list node name is:" + list.nodeName);
 console.log("#web-list has chold nodes:" + list.hasChildNodes());
+const WebList = document.querySelector("#web-list");
+console.log("#web-list next sibling is:" + WebList.nextSibling);
+var h2 = document.querySelector("h2");
+console.log(h2);
+h2.addEventListener("click", function (e) {
+  console.log(e.target);
+  console.log(e);
+});
