@@ -440,3 +440,11 @@ let pc = {
   },
 };
 pc.geet();
+
+// CONSTRUCTOR FUNCTION
+function Fay(name, age) {
+  this.name = name;
+  this.age = age;
+}
+let fay = new Fay("chebby", 20);
+console.log(fay);
