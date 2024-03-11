@@ -476,4 +476,12 @@ ref
 
 // dom manipulation
 
-var list = document.querySelectorAll(".li.name");
+var lists = document.querySelectorAll(" #web-list li.name");
+Array.from(lists).forEach(function (list) {
+  console.log(list.textContent);
+});
+var list = document.querySelector("#web-list");
+
+console.log("#web-list node type is:" + list.nodeType);
+console.log("#web-list node name is:" + list.nodeName);
+console.log("#web-list has chold nodes:" + list.hasChildNodes());
