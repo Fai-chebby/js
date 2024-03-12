@@ -493,3 +493,8 @@ h2.addEventListener("click", function (e) {
   console.log(e.target);
   console.log(e);
 });
+list.addEventListener("click", function (e) {
+  if (e.target.className == "delete") {
+    const li = e.target.parentElement;
+  }
+});
