@@ -498,3 +498,6 @@ list.addEventListener("click", function (e) {
     const li = e.target.parentElement;
   }
 });
+//button
+const addForm = document.forms[add - book];
+addForm.addEventListener("submit");
